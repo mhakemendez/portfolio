@@ -15,7 +15,7 @@
     crossorigin="anonymous">
 
     <!-- main css -->
-    <link id="test" rel="stylesheet" href="css/dark.css">
+    <link id="theme" rel="stylesheet" href="css/dafault.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
@@ -24,7 +24,7 @@
 
     <!---------- NAVIGATION AREA ------------>
 
-    <div class="main-header" id="home">
+    <div class="main-header">
         <div class="main-menu">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark my-nav">
                 <div class="container-fluid">
@@ -36,7 +36,7 @@
                     <div class="collapse navbar-collapse text-center" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link nav-active"href="#home">Home</a>
+                                <a class="nav-link"href="#home">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#about">About</a>
@@ -62,23 +62,19 @@
     
     <!---------- BANNER AREA ------------>
 
-    <div class="banner">
+    <div class="banner"  id="home">
         <div class="container">
-            <div class="row justify-content-center landing-row">
-                <div class="col-lg-6 col-10 landing-col" data-aos="fade-up" data-aos-duration="2000">
+            <div class="row justify-content-center landing-row" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-lg-6 landing-col">
                     <h2 class="landing-text text-land">Hey,</h2>
-                    <h1 class="landing-text">I'm <span class="text-uppercase landing-name">Michael</span></h1>
+                    <h3 class="landing-text">I'm <span class="text-uppercase landing-name">Michael</span></h3>
                     <h3 class="landing-text">Web Developer and Technical Support</h3>
                     <div class="btn-area">
                         <button class="landing-btn hire-btn" type="button"> HIRE ME</button>
                         <button class="landing-btn cv-btn" type="button"> DOWNLOAD CV</button>
                     </div>
-                    <div class="btn-mode">
-                        <button class="side-thme side-dark" id="dark"></button>
-                        <button class="side-thme light-side" id="light"></button>
-                    </div>
                 </div>
-                <div class="col-lg-6 col-10 landing-col d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-lg-6 landing-col d-flex justify-content-center">
                     <div class="landing-img-wrap">
                         <img src="images/bg.png" class="landing-img" alt="">
                     </div>
@@ -94,13 +90,13 @@
     <div class="about" id="about">
         <div class="container">
            <div class="row">
-                <div class="col-lg-6 about-col"  data-aos="fade-right" data-aos-duration="2000">
+                <div class="col-lg-6 about-col" data-aos="zoom-in" data-aos-duration="2000">
                     <div class="image-frame">
                          <img src="images/about.png" class="about-img" alt="">
                     </div>
                    
                 </div>
-                <div class="col-lg-6 about-col" data-aos="fade-left" data-aos-duration="2000">
+                <div class="col-lg-6 about-col" data-aos="zoom-in" data-aos-duration="2000">
                     <p class="about-para-header">
                         LET ME INTRODUCE MY SELF
                     </p>
@@ -121,10 +117,10 @@
     
     <!---------- SERVICES AREA ------------>
 
-    <div class="services" id="services">
-        <div class="container">
-            <h2 class="about-header text-center" data-aos="fade-up" data-aos-duration="2000"> SERVICES </h2>
-            <div class="row justify-content-around" data-aos="fade-up" data-aos-duration="2000">
+    <div class="services"  id="services">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
+            <h2 class="services-header text-center"> SERVICES </h2>
+            <div class="row justify-content-around">
                 <div class="col-lg-3 col-md-10 col-sm-10 col-10 services-col">
                     <h4 class="services-card-header">FRONT END</h4>
                     <div class="row justify-content-center">
@@ -192,7 +188,7 @@
     
     <!---------- PROJECTS AREA ------------>
 
-    <div class="project-area">
+    <div class="project-area"  id="project">
         <div class="container">
 
         </div>
@@ -202,9 +198,9 @@
     
     <!---------- CONTACT AREA ------------>
 
-    <div class="contact-area" id="contact">
+    <div class="contact-area"  id="contact">
         <div class="container">
-            <div class="row justify-content-around contact-row"  data-aos="fade-down" data-aos-duration="2000">
+            <div class="row justify-content-around contact-row" data-aos="fade-up" data-aos-duration="2000">
                 <div class="col-lg-3 col-md-8 col-sm-8 col-8 text-center contact-col ">
                     <div class="contact-icon">
                         <i class="fas fa-map-marker-alt"></i>
@@ -239,7 +235,7 @@
 
     <!---------- CERTIFICATE ------------>
         
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-aos="zoom-in" data-aos-duration="2000">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-aos="zoom-in" data-aos-duration="2000">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -247,7 +243,7 @@
             </div>
             <div class="container">
                 <div class="row justify-content-center carousel-row">
-                    <div class="cert-col col-lg-6">
+                    <div class="col-lg-6">
                         <div class="carousel-inner">
                             <div class="carousel-item text-center active">
                                 <img src="images/cert1.png" class="img-carousel" alt="...">
@@ -263,14 +259,13 @@
                         </div>
         
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                            <div class="prev-arrow">
-                                <i class="fas fa-chevron-circle-left" aria-hidden="true"></i>
-                            </div>
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
+                        
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                            <div class="prev-arrow">
-                                <i class="fas fa-chevron-circle-right" aria-hidden="true"></i>
-                            </div>
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div>
@@ -291,33 +286,37 @@
             <div class="footer-icon text-center">
                 <span>COPYRIGHT</span>
                 <i class="fas fa-copyright"></i>
-                <span>2021</span> 
+                <span>2021</span>
             </div>
         </div>
     </div>
 
     <!---------- FOOTER ------------>
-    
-    
+
+    <div class="side-thme">
+        <button class="theme dark" id="dark">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="theme light" id="light">
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+
 
 
     <!-- javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" 
     crossorigin="anonymous"></script>
-    <!-- javascript -->
-
-    <!-- jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- jquery -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <script src="js/main.js"></script>
 
-    <script>
+     <script>
         AOS.init();
     </script>
-
 </body>
 </html>

@@ -8,22 +8,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body{
     background: white;
-    color: rgb(32, 32, 32);
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 1s;
 }
 
 /* ============== NAVIGATION ============== */
 
 .main-header .main-menu .navbar{
-    background: rgb(211, 211, 211);
-    box-shadow: 2px 2px 5px rgb(32, 32, 32);
-    transition: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+
 }
 
 .main-header .main-menu .navbar .container-fluid .navbar-brand{
@@ -31,34 +29,28 @@ body{
     letter-spacing: 5px;
     font-weight: bold;
     font-family: 'Oi', cursive;
-    color: rgb(32, 32, 32);
-    transition: 1s;
-}
-
-.main-header .main-menu .navbar .container-fluid .navbar-toggler{
-    border: rgb(32, 32, 32);
+    color: black;
 }
 
 .main-header .main-menu .navbar .container-fluid .navbar-toggler i{
-    color: rgb(32, 32, 32);
+    color: black;
+    font-size: 30px;
 }
 
 .main-header .main-menu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item{
     border-radius: 10px;
     margin-right: 40px;
-    transition: 1s;
 }
 
 .main-header .main-menu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item:hover{
-    background: rgb(32, 32, 32);
+    background: black;
     border-radius: 10px;
     transition: 1s;
 }
 
 .main-header .main-menu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link{
     font-family: 'Zen Dots', cursive;
-    color: rgb(32, 32, 32);
-    transition: 1s;
+    color: black;
 }
 
 .main-header .main-menu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
@@ -72,11 +64,8 @@ body{
 
 .banner{
     background: white;
-    width: 100%;
     padding-bottom: 5rem;
-    box-shadow: 2px 2px 5px black;
     margin-top: 55px;
-    
 }
 
 .landing-col{
@@ -101,7 +90,7 @@ body{
     font-weight: bold;
     font-size: 50px;
     text-shadow: 2px 2px 5px black;
-    transition: 1s;
+    
 }
 
 .btn-area{
@@ -110,19 +99,20 @@ body{
 
 .landing-btn{
     padding: 5px 10px;
-    border: 1px solid black;
+    border: none;
     border-radius: 5px;
     font-family: 'Zen Dots', cursive;
 }
 
 .hire-btn{
-    background: black;
-    color: white; 
+    background: black; 
+    color: white;
 }
 
 .hire-btn:hover{
-    background: white; 
-    color: rgb(32, 32, 32);
+    border: 1px solid black; 
+    background: none;
+    color: black;
     transition: 1s;
     transform: translateY(-2px);
 }
@@ -142,48 +132,8 @@ body{
 
 }
 
-.btn-mode{
-    margin-top: 20px;
-    
-}
-
-.theme-light{
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-}
-
-.theme-dark{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-
-.dark-mode{
-    background: black;
-    border: 1px solid white;
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-}
-
-.dark-mode:hover{
-    transform: scale(1.1);
-}
-
-.light-mode{
-    background: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: none;
-    margin-left: 10px;
-}
-
-.light-mode:hover{
-    transform: scale(1.1);
-}
-
 .landing-img-wrap{
-    background: rgb(32, 32, 32);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 350px;
     width: 350px;
     border-radius: 50%;
@@ -206,20 +156,12 @@ body{
     justify-content: center;
     padding-bottom: 5rem;
     padding-top: 3rem;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
 .about-col{
     margin-top: 25px;
-}
-
-.about-header{
-    font-size: 40px;
-    font-family: 'Days One', sans-serif;
-    font-weight: bold;
-    letter-spacing: 10px;
-    color: black;
 }
 
 .image-frame{
@@ -259,23 +201,29 @@ body{
 /* ============== SERVICES ============== */
 
 .services{
-    background: white;
+    background: none;
     width: 100%;
     padding-top: 3rem;
     padding-bottom: 5rem;
-    box-shadow: 2px 2px 5px black;
+}
+
+.services-header{
+    font-size: 40px;
+    font-family: 'Days One', sans-serif;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: black;
 }
 
 .services-col{
-    background: rgb(32, 32, 32);
+    background: white;
     border-radius: 10px;
     text-align: center;
     color: black;
     margin-top: 35px;
     padding-bottom: 3rem;
-    box-shadow: 2px 2px 5px 5px rgb(61, 61, 61);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 .services-card-header{
     height: 35px;
@@ -289,12 +237,13 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: -10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
 .front-end-col{
     border-radius: 3px;
-    box-shadow: 2px 2px 5px white;
+    box-shadow: 2px 2px 5px rgb(32, 32, 32);
     margin-top: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -304,7 +253,6 @@ body{
     text-align: center;
     font-family: 'Audiowide', cursive;
     font-weight: bold;
-    color: white;
     
 }
 
@@ -314,7 +262,7 @@ body{
 
 .project-area{
     height: 80vh;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* ============== PROJECTS ============== */
@@ -330,8 +278,8 @@ body{
 }
 
 .contact-col{
-    box-shadow: 2px 2px 5px 5px rgb(61, 61, 61);
-    background: rgb(32, 32, 32);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
     margin-top: 20px;
 }
 
@@ -343,13 +291,13 @@ body{
 
 .contact-icon{
     font-size: 50px;
-    color: white;
+    color: black;
     
 }
 
 .contact-text{
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: black;
 }
 
 .contact-text p{
@@ -372,22 +320,15 @@ body{
     
 }
 
-
-.prev-arrow{
-    color: black;
-    font-size: 50px;
-}
-
 /* ============== CONTACT ============== */
 
 /* ============== FOOTER ============== */
 
 .end-section{
-    border-top: 1px solid white;
+    border-top: 1px solid black;
     margin-top: 20px;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    box-shadow: 2px 2px 5px black;
 }
 
 .my-footer{
@@ -396,44 +337,51 @@ body{
 
 /* ============== FOOTER ============== */
 
-.side-thme{
-    border: none;
-    border-radius: 10px;
-}
 
-.theme-side{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
+.side-thme{
+    
     position: fixed;
     top: 50%;
-    right: 0px;
-    transform: translateX(-50%);
-    background: rgb(136, 136, 136);
-    padding: 5px 5px;
+    right: 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
     border-radius: 5px;
-}
-
-.light-side{
-    margin-left: 5px;
     background: white;
-    height: 35px;
-    width: 35px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.light-side:hover{
-    transform: scale(1.1);
+.theme{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    border: none;
+    
 }
 
-.side-dark{
+.dark{
+    border: 1px solid white;
     background: black;
-    height: 35px;
-    width: 35px;
 }
 
-.side-dark:hover{
+.dark:hover{
     transform: scale(1.1);
+    transition: 1s;
+    
 }
 
+.side-thme .dark i{
+    color: white;
+}
 
+.light{
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.light:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
 
