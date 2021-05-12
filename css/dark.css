@@ -21,7 +21,7 @@ body{
 /* ============== NAVIGATION ============== */
 
 .main-header .main-menu .navbar{
-    background: rgb(32, 32, 32);
+    background: rgb(53, 53, 53);
     transition: 1s;
     
 }
@@ -393,7 +393,7 @@ body{
 }
 
 .light-side{
-    margin-top: 5px;
+    margin-left: 5px;
     background: white;
     height: 35px;
     width: 35px;
