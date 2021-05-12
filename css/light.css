@@ -1,0 +1,439 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Days+One&family=Oi&family=Roboto:wght@300&family=Zen+Dots&display=swap');
+/* google fonts */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: white;
+    color: rgb(32, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+
+/* ============== NAVIGATION ============== */
+
+.main-header .main-menu .navbar{
+    background: white;
+    box-shadow: 2px 2px 5px rgb(32, 32, 32);
+    transition: 1s;
+}
+
+.main-header .main-menu .navbar .container-fluid .navbar-brand{
+    margin-left: 50px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family: 'Oi', cursive;
+    color: rgb(32, 32, 32);
+    transition: 1s;
+}
+
+.main-header .main-menu .navbar .container-fluid .navbar-toggler{
+    border: rgb(32, 32, 32);
+}
+
+.main-header .main-menu .navbar .container-fluid .navbar-toggler i{
+    color: rgb(32, 32, 32);
+}
+
+.main-header .main-menu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item{
+    border-radius: 10px;
+    margin-right: 40px;
+    transition: 1s;
+}
+
+.main-header .main-menu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item:hover{
+    background: rgb(32, 32, 32);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.main-header .main-menu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link{
+    font-family: 'Zen Dots', cursive;
+    color: rgb(32, 32, 32);
+    transition: 1s;
+}
+
+.main-header .main-menu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
+    color: white;
+    transition: 1s;
+}
+
+/* ============== NAVIGATION ============== */
+
+/* ============== BANNER ============== */
+
+.banner{
+    background: white;
+    width: 100%;
+    padding-bottom: 5rem;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 55px;
+    
+}
+
+.landing-col{
+    margin-top: 10px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+   
+}
+
+.text-land{
+    margin-top: 50px ;
+}
+
+.landing-text{
+    font-family: 'Audiowide', cursive;
+    
+}
+
+.landing-name{
+    color: rgb(0, 0, 77);
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    transition: 1s;
+}
+
+.btn-area{
+    margin-top: 20px;
+}
+
+.landing-btn{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.hire-btn{
+    background: black;
+    color: white; 
+}
+
+.hire-btn:hover{
+    background: white; 
+    color: rgb(32, 32, 32);
+    transition: 1s;
+    transform: translateY(-2px);
+}
+
+.cv-btn{
+    background: none;
+    border: 1px solid black;
+    color: black;
+    margin-left: 10px;
+}
+
+.cv-btn:hover{
+    background: black;
+    color: white;
+    transition: 1s;
+    transform: translateY(2px);
+
+}
+
+.btn-mode{
+    margin-top: 20px;
+    
+}
+
+.theme-light{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.theme-dark{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.dark-mode{
+    background: black;
+    border: 1px solid white;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.dark-mode:hover{
+    transform: scale(1.1);
+}
+
+.light-mode{
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    margin-left: 10px;
+}
+
+.light-mode:hover{
+    transform: scale(1.1);
+}
+
+.landing-img-wrap{
+    background: rgb(32, 32, 32);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.landing-img{
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ============== BANNER ============== */
+
+/* ============== ABOUT ============== */
+
+.about{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    box-shadow: 2px 2px 5px black;
+    
+}
+
+.about-col{
+    margin-top: 25px;
+}
+
+.about-header{
+    font-size: 40px;
+    font-family: 'Days One', sans-serif;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: black;
+}
+
+.image-frame{
+    width: 320px;
+    height: 370px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px double rgb(136, 136, 136);
+    text-align: center;
+    border-radius: 5px;
+    
+    
+}
+
+.about-img{
+    width: 300px;
+    height: 350px;
+    box-shadow: -1px 2px 10px 2px rgb(32, 32, 32);
+    margin-top: 5px;
+    border-radius: 5px;
+    background: rgb(136, 136, 136);
+}
+
+.about-para-header{
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.about-text{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* ============== ABOUT ============== */
+
+/* ============== SERVICES ============== */
+
+.services{
+    background: white;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    box-shadow: 2px 2px 5px black;
+}
+
+.services-col{
+    background: rgb(32, 32, 32);
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    margin-top: 35px;
+    padding-bottom: 3rem;
+    box-shadow: 2px 2px 5px 5px rgb(61, 61, 61);
+}
+
+
+.services-card-header{
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    padding-top: 10px;
+    font-family: 'Zen Dots', cursive;
+    color: black;
+    background: white;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    
+}
+
+.front-end-col{
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px white;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.services-skills{
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    color: white;
+    
+}
+
+/* ============== SERVICES ============== */
+
+/* ============== PROJECTS ============== */
+
+.project-area{
+    height: 80vh;
+    box-shadow: 2px 2px 5px black;
+}
+
+/* ============== PROJECTS ============== */
+/* ============== CONTACT ============== */
+
+.contact-area{
+    padding-bottom: 3rem;
+    
+}
+
+.contact-row{
+    margin-top: 40px;
+}
+
+.contact-col{
+    box-shadow: 2px 2px 5px 5px rgb(61, 61, 61);
+    background: rgb(32, 32, 32);
+    margin-top: 20px;
+}
+
+.contact-col:hover{
+    transform: translateY(-5px);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.contact-icon{
+    font-size: 50px;
+    color: white;
+    
+}
+
+.contact-text{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.contact-text p{
+    font-weight: bold;
+}
+
+.contact-get{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: 30px;
+    letter-spacing: 10px;
+}
+/* ============== CONTACT ============== */
+
+/* ============== CONTACT ============== */
+
+.img-carousel{
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+.prev-arrow{
+    color: black;
+    font-size: 50px;
+}
+
+/* ============== CONTACT ============== */
+
+/* ============== FOOTER ============== */
+
+.end-section{
+    border-top: 1px solid white;
+    margin-top: 20px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    box-shadow: 2px 2px 5px black;
+}
+
+.my-footer{
+    margin-top: 10px;
+}
+
+/* ============== FOOTER ============== */
+
+.side-thme{
+    border: none;
+    border-radius: 10px;
+}
+
+.theme-side{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateX(-50%);
+    background: rgb(136, 136, 136);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.light-side{
+    margin-top: 5px;
+    background: white;
+    height: 35px;
+    width: 35px;
+}
+
+.light-side:hover{
+    transform: scale(1.1);
+}
+
+.side-dark{
+    background: black;
+    height: 35px;
+    width: 35px;
+}
+
+.side-dark:hover{
+    transform: scale(1.1);
+}
+
+
+
